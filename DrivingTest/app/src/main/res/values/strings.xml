@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DrivingTest</string>
+    <string name="WelcomeMessage">Click button below to begin test</string>
+    <string name="Start">Start</string>
+    <string name="Question1">How Many Beers have you had tonight?</string>
+    <string name="One">1</string>
+    <string name="morethan1">More than 1</string>
+    <string name="Submit">Submit</string>
+    <string name="Fail">You Should Not Be Driving!</string>
+    <string name="None">None</string>
+    <string name="OtherDrinks">How many other drinks have you had?</string>
+</resources>
