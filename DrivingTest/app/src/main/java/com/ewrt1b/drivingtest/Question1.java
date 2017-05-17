@@ -38,7 +38,7 @@ public class Question1 extends AppCompatActivity {
             //error.setContentView(textview4);
         }
         else if (none.isChecked()){
-            score.currentscore++;
+            score.currentscore= score.currentscore + 2;
             Intent intentQ2 = new Intent(this, question2.class);
             Bundle scoreBundle = new Bundle();
             scoreBundle.putSerializable("Score", score);
