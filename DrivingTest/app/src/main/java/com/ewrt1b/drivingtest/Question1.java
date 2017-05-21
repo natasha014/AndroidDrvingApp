@@ -25,7 +25,7 @@ public class Question1 extends AppCompatActivity {
 
     }
     public void Q1 (View view){
-        ScoreKeeper score = (ScoreKeeper)getIntent().getSerializableExtra("Score");
+        ScoreKeeper score1 = (ScoreKeeper)getIntent().getSerializableExtra("Score");
         CheckBox oneBeer = (CheckBox) findViewById(R.id.checkBox);
         CheckBox moreThanOne = (CheckBox) findViewById(R.id.checkBox3);
         CheckBox none = (CheckBox) findViewById(R.id.checkBox2);
@@ -38,10 +38,10 @@ public class Question1 extends AppCompatActivity {
             //error.setContentView(textview4);
         }
         else if (none.isChecked()){
-            score.currentscore= score.currentscore + 2;
+            score1.currentscore= score1.currentscore + 2;
             Intent intentQ2 = new Intent(this, question2.class);
             Bundle scoreBundle = new Bundle();
-            scoreBundle.putSerializable("Score", score);
+            scoreBundle.putSerializable("Score", score1);
             intentQ2.putExtras(scoreBundle);
             startActivity(intentQ2);
 
@@ -51,8 +51,11 @@ public class Question1 extends AppCompatActivity {
             startActivity(failIntent);
         }
         else{
-            score.currentscore++;
+            score1.currentscore++;
             Intent intentQ2 = new Intent(this, question2.class);
+            Bundle scoreBundle = new Bundle();
+            scoreBundle.putSerializable("Score", score1);
+            intentQ2.putExtras(scoreBundle);
             startActivity(intentQ2);
         }
 

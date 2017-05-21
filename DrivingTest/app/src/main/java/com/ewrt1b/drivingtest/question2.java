@@ -42,7 +42,7 @@ public class question2 extends AppCompatActivity {
         else if (moreOther.isChecked()) {
             startActivity(failIntent2);
         }
-        else if (oneOther.isChecked() && score2.currentscore==1 ) {
+        else if (oneOther.isChecked()&& score2.currentscore==1 ) {
             int test=score2.currentscore;
             startActivity(failIntent2);
         }
