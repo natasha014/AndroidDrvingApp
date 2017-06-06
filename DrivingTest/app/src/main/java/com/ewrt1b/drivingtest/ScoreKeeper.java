@@ -13,7 +13,7 @@ public class ScoreKeeper implements Serializable
 
         public ScoreKeeper (int current)
     {
-        totalscore = 30;
+        totalscore = 12;
         currentscore = current;
 
     }

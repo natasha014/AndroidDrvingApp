@@ -1,6 +1,8 @@
 package com.ewrt1b.drivingtest;
 
 import android.content.Intent;
+import android.os.CountDownTimer;
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
