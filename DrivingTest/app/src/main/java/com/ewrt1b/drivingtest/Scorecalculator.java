@@ -13,7 +13,7 @@ public class Scorecalculator extends AppCompatActivity {
         ScoreKeeper finalScore = (ScoreKeeper)getIntent().getSerializableExtra("Score");
         double finalsc = finalScore.currentscore;
         double total= finalScore.totalscore;
-        if ((finalsc/total)>=0.75) {
+        if ((finalsc/total)>=0.80) {
             Intent PassActivity = new Intent(this, Passactivity.class);
             startActivity(PassActivity);
         }

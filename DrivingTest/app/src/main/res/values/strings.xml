@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">DrivingTest</string>
-    <string name="WelcomeMessage">Click button below to begin test</string>
+    <string name="WelcomeMessage">Click Button Below To Begin Test</string>
     <string name="Start">Start</string>
     <string name="Question1">How Many Beers have you had tonight?</string>
     <string name="One">1</string>
@@ -10,10 +10,6 @@
     <string name="None">None</string>
     <string name="OtherDrinks">How many other drinks have you had?</string>
     <string name="TimedPortion">You have 5 seconds to answer this portion!</string>
-    <string name="title_activity_passactivity">Passactivity</string>
-    <string name="large_text">
-        Although you have passed this test, it does not guarantee that you are fit to drive.
-        Here are some statistics about drunk driving
-    </string>
     <string name="action_settings">Settings</string>
+    <string name="passactivity">Although you have passed this test, it does not guarantee that you are fit to drive. \n\nEVERY TWO MINUTES, A PERSON IS INJURED IN A DRUNK DRIVING CRASH.\n\nIn 2014, 9,967 people were killed in alcohol-impaired driving crashes. \n\n20% of children involved in accidents are accompanied by a drunk driver. \n\nDrunk driving costs the United States $199 billion a year. \n\n In 2011 1.2million drivers were arrested for driving under the influence of alcohol.\n\n Please make your decisions wisely</string>
 </resources>

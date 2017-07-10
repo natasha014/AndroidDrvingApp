@@ -33,10 +33,7 @@
         <activity android:name=".Question5" />
         <activity android:name=".Question6" />
         <activity android:name=".Scorecalculator" />
-        <activity
-            android:name=".Passactivity"
-            android:label="You Passed!"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Passactivity"></activity>
     </application>
 
 </manifest>
